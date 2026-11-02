@@ -45,4 +45,4 @@ Nothing to install: the respond.io MCP server serves its skills directly to the 
 
 ## Contributing
 
-This repository is published automatically from respond.io's MCP server source, where the skills are tested against the tools they describe. Changes made here directly to `skills/` are overwritten on the next release. To report a problem or suggest a change, open an issue.
+The skills are maintained by respond.io alongside the MCP server and tested against the tools they describe, so we don't accept pull requests to `skills/`. To report a problem or suggest a change, open an issue.
