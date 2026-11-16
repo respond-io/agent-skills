@@ -1,0 +1,25 @@
+{
+  "name": "respond-io",
+  "owner": {
+    "name": "respond.io",
+    "url": "https://respond.io"
+  },
+  "metadata": {
+    "description": "Official respond.io skills and MCP server for AI agents."
+  },
+  "plugins": [
+    {
+      "name": "respond-io",
+      "source": "./",
+      "strict": false,
+      "description": "respond.io MCP tools plus skills that teach agents to build, test and publish respond.io Workflows.",
+      "homepage": "https://github.com/respond-io/agent-skills",
+      "mcpServers": {
+        "respond-io": {
+          "type": "http",
+          "url": "https://mcp.respond.io/mcp"
+        }
+      }
+    }
+  ]
+}
